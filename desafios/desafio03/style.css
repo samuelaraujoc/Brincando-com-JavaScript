@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(24, 23, 23);
+}
+
+
+h1{
+    font:  bold 50px "arial";
+    color:rgb(69, 179, 238);
+    text-align: center;
+}
+
+table{
+margin: auto;
+}
