@@ -5,22 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Flex</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
-<body <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <body <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
     <h1>Calculadora Flex</h1>
-    
-    
-        <form name="frmFlex">
-            <img src="img/neutro.png" alt="CalculadoraFlexNeutro">
-            <input type="text" placeholder="Etanol" size="8" name="txtEtanol">
-            <input type="text" placeholder="Gasolina" size="8" name="txtGasolina">
-            <input type="button" value="Vantagem">
-            <input type="reset" value="Limpar" >  
+    <img src="img/neutro.png" alt="Calculador Flex" id="status">
+    <form name="frmFlex">
+            <input type="text" placeholder="Etanol" name="txtEtanol">
+            <input type="text" placeholder="Gasolina" name="txtGasolina">
+            <input type="button" value="Vantagem" onclick="calcular()">
+            <input type="reset" value="Limpar" onclick="resetar()"> 
         </form>
-    
-    
 
     <script src="calculadora.js"></script>
 

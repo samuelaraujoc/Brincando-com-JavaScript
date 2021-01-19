@@ -5,7 +5,7 @@ body {
 
 h1{
     color: rgba(1, 192, 240, 0.808);
-    font-size: 60px;
+    font-size: 90px;
     font-family: 'Lobster', cursive;
 
     
@@ -20,5 +20,5 @@ img{
 input{
     size: 20px;
     width: 3cm;
-    line-height: 1cm;
+    line-height: 0.8cm;
 }
