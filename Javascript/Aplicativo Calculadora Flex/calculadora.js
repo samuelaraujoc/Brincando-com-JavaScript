@@ -6,13 +6,16 @@ function calcular(){
     gasolina=parseFloat(frmFlex.txtGasolina.value);
 
     if(etanol <0.7 * gasolina) {
-       document.getElementById("status").src="img/etanol.png";
-    }else{
+        document.getElementById("status").src="img/etanol.png";
+    }else if (etanol >0.7 * gasolina){  
         document.getElementById("status").src="img/gasolina.png";
+    }else if (etanol == 0  || gasolina == 0){
+        window.alert("Porfavor, digite um valor Valido")
+
     }
 }
 
 function resetar(){
-    document.getElementById("status").src="img/neutro.png"
+    document.getElementById("status").src="img/neutro.png" 
 
 } 
