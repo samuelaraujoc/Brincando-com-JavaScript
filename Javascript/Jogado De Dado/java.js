@@ -1,5 +1,9 @@
 var sorteio = Math.floor(Math.random() * 6 + 1);
 
+function atualizar(){
+    window.location.reload();
+}
+
 switch(sorteio){
     case 1:
         document.getElementById("face").src = "img_dados/dado1.png";
@@ -18,5 +22,5 @@ switch(sorteio){
     break;       
     case 6:
         document.getElementById("face").src = "img_dados/dado6.png";
-    break;                          
+    break;
 }

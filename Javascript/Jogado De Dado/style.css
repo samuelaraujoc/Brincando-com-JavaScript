@@ -4,16 +4,30 @@ body{
 
 h1{
     color: rgb(0, 0, 0);
-    font-size: 80px;
+    font-size: 70px;
     font-family: 'Potta One', cursive;
     text-align: center;
-   
 }
 
 img{
+    max-width:300px;
+    max-height:300px;
     display: block;
     margin-right: auto;
     margin-left: auto;
+}
 
+input{
+    box-shadow: 5px -9px 3px rgb(3, 3, 3);
+    background-color: rgb(12, 112, 5);
+    color: rgb(209, 168, 247);
+    font-size: 20px;
+    font-family: 'Potta One', cursive;
+    width: 4cm;
+    height: 1.5cm;
+    margin-top: 2cm;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 
 }
