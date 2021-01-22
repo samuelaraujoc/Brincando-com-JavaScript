@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(83, 78, 78)
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    font-family: 'Potta One', cursive;
+    text-align: center;
+   
+}
+
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
