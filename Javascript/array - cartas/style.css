@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+h1{
+color: rgb(255, 255, 255);
+text-align: center;
+margin-top: 10%;
+font-size: 5cm;
+}
+
+input{
+    box-shadow: 5px -9px 3px rgb(235, 72, 72);
+    color: rgb(150, 21, 21);
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: fantasy;
+    width: 4cm;
+    
+}
