@@ -1,8 +1,7 @@
-import { } from 'react-native'
+import { StyleSheet } from 'react-native'
 
-export default StyleSheet.creat({
+export default StyleSheet.create ({
     fontG: {
-        fontSize: 24,
+        fontSize: 32
     }
-
 })
