@@ -4,15 +4,15 @@ import Estilo from './estilo'
 
 
 function Comp() {
-    return <Text style={Estilo.TxtG}>Comp #Ofiical</Text>
+    return <Text style={Estilo.txtG}>Comp #Ofiical</Text>
 }
 
 function Comp1() {
-    return <Text style={Estilo.TxtG}>Comp #01</Text>
+    return <Text style={Estilo.txtG}>Comp #01</Text>
 }
 
 function Comp2() {
-    return <Text style={Estilo.TxtG}>Comp #03</Text>
+    return <Text style={Estilo.txtG}>Comp #03</Text>
 }
 
 export {Comp1, Comp2}

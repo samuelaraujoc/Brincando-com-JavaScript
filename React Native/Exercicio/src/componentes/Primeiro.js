@@ -3,8 +3,8 @@ import { Text } from 'react-native'
 import  Estilo from './estilo'
 
 export default ( ) => {
-    console;console.warn('Opa!!')
+    console.warn('Opa!!')
     return(
-        <Text style={Estilo.TxtG}> Primeiro Teste!!</Text>
+        <Text style={Estilo.txtG}> Primeiro Teste!!</Text>
     )
 }
