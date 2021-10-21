@@ -1,19 +1,24 @@
 import React from 'react'
 import { View, StyleSheet } from'react-native'
 
-import  Aletorio from './componentes/aleatorio'
+import Titulo from './componentes/Titulo'
+// import  Aletorio from './componentes/aleatorio'
 // import MinMax from './componentes/MinMax'
 // import CompPadrao, { Comp1, Comp2} from './componentes/Multi'
 // import Primeiro from './componentes/Primeiro'
 
 export default ()  => (
     <View style={style.App}>
+        <Titulo principal="Cadastro Produto"
+            secundario="Tela de Cadastro do Produto"/>
+
+
+        {/* /* <Aletorio min={10} max={60}/>
         <Aletorio min={10} max={60}/>
         <Aletorio min={10} max={60}/>
         <Aletorio min={10} max={60}/>
-        <Aletorio min={10} max={60}/>
-        <Aletorio min={10} max={60}/>
-        {/* <MinMax  min={3} max={20} />
+        <Aletorio min={10} max={60}/> */
+        /* <MinMax  min={3} max={20} />
         <MinMax  min={1} max={94} /> */
         /* <CompPadrao />
         <Comp1 />
