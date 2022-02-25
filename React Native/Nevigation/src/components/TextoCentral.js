@@ -11,7 +11,7 @@ export default props => (
         <Text style={{ 
             fontSize:  50,
             color: props.corTexto || '#FFF'
-            }}> 
+        }}> 
             {props.children}
          </Text>
      </View>
