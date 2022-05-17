@@ -1,5 +1,10 @@
 var check = false;
 
+
+function recontar(){
+    window.location.reload();
+}
+
 function xequeMate(){
     if (check == false){
     var timer1 = setInterval(function() {start()}, 1000);
@@ -35,6 +40,4 @@ function soudBeep(){
 
 function end(){
     document.getElementById("fire").src = "img/clean.jpg"
-
-
 }

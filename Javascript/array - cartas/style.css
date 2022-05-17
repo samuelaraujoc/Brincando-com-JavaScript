@@ -1,13 +1,21 @@
 body{
-    background-color: black;
+    background-color: rgb(177, 57, 57);
 }
 
 h1{
-color: rgb(255, 255, 255);
+color: rgb(17, 2, 2);
 text-align: center;
-margin-top: 10%;
+margin-top: 5%;
 font-size: 5cm;
 }
+
+h2{
+    color: rgb(71, 32, 32);
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
+    
 
 input{
     box-shadow: 5px -9px 3px rgb(235, 72, 72);
@@ -15,10 +23,9 @@ input{
     background-color: rgb(255, 255, 255);
     display: block;
     margin-left: auto;
-    margin-top: auto;
     margin-right: auto;
+    margin-top: -2cm;
     font-size: 20px;
     font-family: fantasy;
-    width: 4cm;
-    
+   
 }
