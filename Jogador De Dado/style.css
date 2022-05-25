@@ -20,6 +20,7 @@ img{
 input{
     box-shadow: 5px -9px 3px rgb(3, 3, 3);
     background-color: rgb(12, 112, 5);
+    border-radius: 10px;
     color: rgb(209, 168, 247);
     font-size: 20px;
     font-family: 'Potta One', cursive;
