@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="pr-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jokenpo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-        <h1 style="text-align: center;">JOKENPO</h1>
-        <h3>Jogador:</h3>
-            <img src="img/pedra.png" alt="Pedra">
-            <img src="img/papel.png" alt="Papel">
-            <img src="img/tesoura.png" alt="Tesoura">
 
+<body>
+    <h1>JOKENPO</h1>
+    <div class="container">
+        <h3>Jogador:</h3>
+        <img src="img/pedra.png" alt="Pedra">
+        <img src="img/papel.png" alt="Papel">
+        <img src="img/tesoura.png" alt="Tesoura">
         <forme name="frmJokenpo">
             <input type="radio" name="grupo" id="pedra"> Pedra
             <input type="radio" name="grupo" id="papel">Papel
             <input type="radio" name="grupo" id="tesoura">Tesoura
-                <p>
-                    <input type="button" value="JOGAR" onclick="jogar()">
-                    <input type="reset" value="RESET" onclick="resetar()">
-                </p>
+            <p>
+                <input type="button" value="JOGAR" onclick="jogar()">
+                <input type="reset" value="RESET" onclick="resetar()">
+            </p>
+    </div>
+
+    <div class="container2">
         </forme>
         <hr>
-        <h3>COMPUTADOR</h3>
+        <h3>Computador</h3>
         <img src="img/pc.png" alt="PC" id="pc">
         <hr>
         <h3 id="placar"></h3>
-
         <script src="jokenpo.js"></script>
+    </div>
+
 </body>
+
 </html>

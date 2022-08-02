@@ -4,23 +4,23 @@ function jogar() {
     } else {
         var sorteio = Math.floor(Math.random() * 3);
         switch (sorteio) {
-          case 0:
-              document.getElementById("pc").src = "img/pcpedra.png";
-               break;
-          case 1:
-             document.getElementById("pc").src = "img/pcpapel.png";
-             break;
-         case 2:
-             document.getElementById("pc").src = "img/pctesoura.png";
-              break;
+            case 0:
+                document.getElementById("pc").src = "img/pcpedra.png";
+                break;
+            case 1:
+                document.getElementById("pc").src = "img/pcpapel.png";
+                break;
+            case 2:
+                document.getElementById("pc").src = "img/pctesoura.png";
+                break;
         }
-        if ((document.getElementById("pedra").checked == true && sorteio == 0) || (document.getElementById("papel").checked == true && sorteio == 1) || (document.getElementById("tesoura").checked == true && sorteio == 2)){
-                document.getElementById("placar").innerHTML="Empate";
+        if ((document.getElementById("pedra").checked == true && sorteio == 0) || (document.getElementById("papel").checked == true && sorteio == 1) || (document.getElementById("tesoura").checked == true && sorteio == 2)) {
+            document.getElementById("placar").innerHTML = "Empate";
 
-        } else if ((document.getElementById("pedra").checked == true && sorteio == 2) || (document.getElementById("papel").checked == true && sorteio == 0) || (document.getElementById("tesoura").checked == true && sorteio == 1)){
-            document.getElementById("placar").innerHTML="Jogador Venceu";
-        }else{
-            document.getElementById("placar").innerHTML="O Computador Venceu";
+        } else if ((document.getElementById("pedra").checked == true && sorteio == 2) || (document.getElementById("papel").checked == true && sorteio == 0) || (document.getElementById("tesoura").checked == true && sorteio == 1)) {
+            document.getElementById("placar").innerHTML = "Jogador Venceu";
+        } else {
+            document.getElementById("placar").innerHTML = "O Computador Venceu";
 
         }
     }
