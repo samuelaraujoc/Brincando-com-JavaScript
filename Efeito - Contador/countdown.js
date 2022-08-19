@@ -8,8 +8,8 @@ function recontar(){
 function xequeMate(){
     if (check == false){
     var timer1 = setInterval(function() {start()}, 1000);
-    var timer2 = setTimeout(function() {end()}, 15000);
-    var count = 10;
+    var timer2 = setTimeout(function() {end()}, 10000);
+    var count = 5;
     function start(){
         soudBeep();
         document.getElementById("time").innerHTML = count; 
