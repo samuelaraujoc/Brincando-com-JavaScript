@@ -1,18 +1,18 @@
 # Array Cartas
-## Utilizando array para printar cartas na tela
-![](Lampada/img/cartas.gif)
+### Utilizando array para printar cartas na tela
+![](gifs/cartas.gif)
 
 # Contador
-![](Lampada/img/contador.gif)
+### Eventos de sincronização e reprodução de arquivos de audio usando JavaScript
+![](gifs/contador.gif)
 
 # Dado
-## Switch case
-![](Lampada/img/dado.gif)
+###  Utilizando Switch case
+![](gifs/dado.gif)
 
 # Jokenpo
-## Encadeamento das estruturas condicionais
-![](Lampada/img/jokenpo.gif)
+### Utilizando Encadeamento das estruturas condicionais
+![](gifs/Jokenpo.gif)
 
 # Lampada
-## Encadeamento das estruturas condicionais
-![](Lampada/img/lampada.gif)
+![](gifs/lampada.gif)
